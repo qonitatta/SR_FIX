@@ -36,7 +36,7 @@
   <link href="<?php return base_url('assets/animate-css/animate.min.css') ?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="<?= base_url('css/style-home-overview.css') ?>" rel="stylesheet">
+  <link href="<?php return base_url('css/style-home-overview.css') ?>" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Imperial
@@ -330,7 +330,7 @@
         </div>
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="<?php return base_url('img/quote_sign_left.png') ?>" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="<?php echo base_url('img/quote_sign_right.png') ?>" alt=""></small>
+            <b><img src="<?php return base_url('img/quote_sign_left.png') ?>" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="<?php return base_url('img/quote_sign_right.png') ?>" alt=""></small>
           </div>
         </div>
       </div>
@@ -338,7 +338,7 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="<?php return base_url('img/quote_sign_left.png') ?>" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="<?php echo base_url('img/quote_sign_right.png') ?>" alt=""></small>
+            <b><img src="<?php return base_url('img/quote_sign_left.png') ?>" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="<?php return base_url('img/quote_sign_right.png') ?>" alt=""></small>
           </div>
         </div>
         <div class="col-md-3">
