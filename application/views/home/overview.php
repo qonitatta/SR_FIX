@@ -29,10 +29,10 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+  <link href="<?php return base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet">
+  <link href="<?php return base_url('assets/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet">
   <link href="<?php return base_url('assets/animate-css/animate.min.css') ?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
@@ -56,7 +56,7 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="<?php echo base_url('img/logo.png') ?>" alt="Imperial">
+          <img class="" src="<?php return base_url('img/logo.png') ?>" alt="Imperial">
         </div>
 
         <h1>Welcome to Imperial studios</h1>
@@ -76,7 +76,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="<?php echo base_url('img/logo.png') ?>" alt="" title="" /></img></a>
+        <a href="#hero"><img src="<?php return base_url('img/logo.png') ?>" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Header 1</a></h1>-->
       </div>
@@ -131,7 +131,7 @@
       <div class="row">
 
         <div class="col-lg-6 about-img">
-          <img src="<?php echo base_url('img/about-img.jpg') ?>" alt="">
+          <img src="<?php return base_url('img/about-img.jpg') ?>" alt="">
         </div>
 
         <div class="col-md-6 about-content">
@@ -323,14 +323,14 @@
       <div class="row">
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="<?php echo base_url('img/client-1.jpg') ?>" alt=""></div>
+            <div class="pic"><img src="<?php return base_url('img/client-1.jpg') ?>" alt=""></div>
             <h4>Saul Goodman</h4>
             <span>Lawless Inc</span>
           </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="<?php echo base_url('img/quote_sign_left.png') ?>" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="<?php echo base_url('img/quote_sign_right.png') ?>" alt=""></small>
+            <b><img src="<?php return base_url('img/quote_sign_left.png') ?>" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="<?php echo base_url('img/quote_sign_right.png') ?>" alt=""></small>
           </div>
         </div>
       </div>
@@ -338,12 +338,12 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="<?php echo base_url('img/quote_sign_left.png') ?>" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="<?php echo base_url('img/quote_sign_right.png') ?>" alt=""></small>
+            <b><img src="<?php return base_url('img/quote_sign_left.png') ?>" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="<?php echo base_url('img/quote_sign_right.png') ?>" alt=""></small>
           </div>
         </div>
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="<?php echo base_url('img/client-2.jpg') ?>" alt=""></div>
+            <div class="pic"><img src="<?php return base_url('img/client-2.jpg') ?>" alt=""></div>
             <h4>Sara Wilsson</h4>
             <span>Odeo Inc</span>
           </div>
@@ -369,7 +369,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('img/team-1.jpg') ?>" alt=""></div>
+            <div class="pic"><img src="<?php return base_url('img/team-1.jpg') ?>" alt=""></div>
             <h4>Walter White</h4>
             <span>Chief Executive Officer</span>
             <div class="social">
@@ -383,7 +383,7 @@
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('img/lteam-2.jpg') ?>" alt=""></div>
+            <div class="pic"><img src="<?php return base_url('img/lteam-2.jpg') ?>" alt=""></div>
             <h4>Sarah Jhinson</h4>
             <span>Product Manager</span>
             <div class="social">
@@ -411,7 +411,7 @@
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="<?php echo base_url('img/team-4.jpg') ?>" alt=""></div>
+            <div class="pic"><img src="<?php return base_url('img/team-4.jpg') ?>" alt=""></div>
             <h4>Amanda Jepson</h4>
             <span>Accountant</span>
             <div class="social">
@@ -519,19 +519,19 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Required JavaScript Libraries -->
-  <script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
-  <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js') ?>"></script>
-  <script src="<?php echo base_url('assets/superfish/hoverIntent.js') ?>"></script>
-  <script src="<?php echo base_url('assets/superfish/superfish.min.js') ?>"></script>
-  <script src="<?php echo base_url('assets/morphext/morphext.min.js') ?>"></script>
-  <script src="<?php echo base_url('assets/wow/wow.min.js') ?>"></script>
-  <script src="<?php echo base_url('assets/stickyjs/sticky.js') ?>"></script>
-  <script src="<?php echo base_url('assets/easing/easing.js') ?>"></script>
+  <script src="<?php return base_url('assets/jquery/jquery.min.js') ?>"></script>
+  <script src="<?php return base_url('assets/bootstrap/js/bootstrap.min.js') ?>"></script>
+  <script src="<?php return base_url('assets/superfish/hoverIntent.js') ?>"></script>
+  <script src="<?php return base_url('assets/superfish/superfish.min.js') ?>"></script>
+  <script src="<?php return base_url('assets/morphext/morphext.min.js') ?>"></script>
+  <script src="<?php return base_url('assets/wow/wow.min.js') ?>"></script>
+  <script src="<?php return base_url('assets/stickyjs/sticky.js') ?>"></script>
+  <script src="<?php return base_url('assets/easing/easing.js') ?>"></script>
 
   <!-- Template Specisifc Custom Javascript File -->
-  <script src="<?php echo base_url('js/custom.js') ?>"></script>
+  <script src="<?php return base_url('js/custom.js') ?>"></script>
 
-  <script src="<?php echo base_url('contactform/contactform.js') ?>"></script>
+  <script src="<?php return base_url('contactform/contactform.js') ?>"></script>
 
 
 </body>
