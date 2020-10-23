@@ -33,10 +33,10 @@
 
   <!-- Libraries CSS Files -->
   <link href="<?php echo base_url('assets/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet">
-  <link href="<?php print( base_url('assets/animate-css/animate.min.css') ) ?>" rel="stylesheet">
+  <link href="<?php return base_url('assets/animate-css/animate.min.css') ?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="<?php echo base_url('css/style-home-overview.css') ?>" rel="stylesheet">
+  <link href="<?= base_url('css/style-home-overview.css') ?>" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Imperial

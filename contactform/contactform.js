@@ -62,26 +62,27 @@ jQuery(document).ready(function($) {
         f.children("textarea").each(function() { // run all inputs
 
             var i = $(this); // current input
-            var rule = i.attr('data-rule');
+            var rule = i.attr("data-rule");
 
             if (rule !== undefined) {
                 var ierror = false; // error flag for current input
-                var pos = rule.indexOf(':', 0);
+                var pos = rule.indexOf(":", 0);
+                var exp;
                 if (pos >= 0) {
-                    var exp = rule.substr(pos + 1, rule.length);
+                    exp = rule.substr(pos + 1, rule.length);
                     rule = rule.substr(0, pos);
                 } else {
                     rule = rule.substr(pos + 1, rule.length);
                 }
 
                 switch (rule) {
-                    case 'required':
+                    case "required":
                         if (i.val() === '') {
                             ferror = ierror = true;
                         }
                         break;
 
-                    case 'minlen':
+                    case "minlen":
                         if (i.val().length < parseInt(exp, 10)) {
                             ferror = ierror = true;
                         }
