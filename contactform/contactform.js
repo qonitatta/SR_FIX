@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
 
     //Contact
     $("form.contactForm").submit(function() {
+        var str;
         var f = $(this).find(".form-group"),
             ferror = false,
             emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -55,7 +56,7 @@ jQuery(document).ready(function($) {
                         }
                         break;
                 }
-                i.next(".validation").html((ierror ? (i.attr("data-msg") !== undefined ? i.attr('data-msg') : "wrong Input") : "")).show("blind");
+                i.next(".validation").html((ierror ? (i.attr("data-msg") !== undefined ? i.attr("data-msg") : "wrong Input") : "")).show("blind");
             }
         });
         f.children("textarea").each(function() { // run all inputs
@@ -92,7 +93,7 @@ jQuery(document).ready(function($) {
         if (ferror) {
             return false;
         } else {
-            var str = $(this).serialize();
+            str = $(this).serialize();
         }
         var action = $(this).attr("action");
         if (!action) {
