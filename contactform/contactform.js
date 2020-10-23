@@ -82,7 +82,7 @@ jQuery(document).ready(function($) {
                         break;
 
                     case 'minlen':
-                        if (i.val().length < parseInt(exp)) {
+                        if (i.val().length < parseInt(exp, 10)) {
                             ferror = ierror = true;
                         }
                         break;
